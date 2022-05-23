@@ -3,7 +3,7 @@ IDEA:
     1st matrix loops:  To have a row array, and col array and to mark the row and col index to 1 when we find a 0.
     2nd matrix loops:  if that row OR col is a 1, we trun the matrix[][] position to 0
 */
-class Solution {
+/* class Solution {
     public void setZeroes(int[][] matrix) {
         int m = matrix.length;
         int n = matrix[0].length;
@@ -30,4 +30,4 @@ class Solution {
             }
         }
     }
-}
+} */

@@ -1,4 +1,4 @@
-class Solution {
+/* class Solution {
     public void moveZeroes(int[] nums) {
         // two pointer approach using swap fn
         int j=0;
@@ -11,4 +11,4 @@ class Solution {
             }
         }
     }
-}
+} */

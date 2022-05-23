@@ -1,4 +1,4 @@
-class Solution {
+/* class Solution {
     public int maxProfit(int[] prices) {
         // initially
         int minPrice = prices[0];
@@ -16,3 +16,4 @@ class Solution {
         return maxProfit;
     }
 }                                       
+ */

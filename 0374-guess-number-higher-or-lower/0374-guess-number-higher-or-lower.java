@@ -1,4 +1,4 @@
-/**
+/** 
  * Forward declaration of guess API.
  * @param  num   your guess
  * @return 	     -1 if num is higher than the picked number
@@ -8,29 +8,29 @@
  */
 
 public class Solution extends GuessGame {
-
+    
     public int guessNumber(int n) {
         int start = 1;
         int end = n;
+    
+        while(start<=end)
+        {
+            int mid = start + (end-start)/2;
 
-        while (start <= end) {
-            int mid = start + (end - start) / 2;
-
-            if (
-                guess(mid) == -1
-            ) { //greater then picked number
+            if(guess(mid) == -1)        //greater then picked number
+            {
                 end = mid - 1;
-            } else if (
-                guess(mid) == 1
-            ) { //lesser than picked number
+            }
+            else if(guess(mid) == 1)    //lesser than picked number
+            {
                 start = mid + 1;
-            } else if (
-                guess(mid) == 0
-            ) { //equal to the picked number
+            }
+            else if(guess(mid) == 0)    //equal to the picked number
+            {
                 return mid;
             }
         }
         return -1;
+        
     }
-    
 }

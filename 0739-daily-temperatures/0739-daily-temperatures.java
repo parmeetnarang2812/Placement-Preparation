@@ -1,3 +1,4 @@
+// time and space is both O(N) -> one loop and one stack is used.
 class Solution {
 
     public int[] dailyTemperatures(int[] temperatures) {

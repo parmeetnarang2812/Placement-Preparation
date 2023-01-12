@@ -1,4 +1,4 @@
-
+/* 
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int total_gas = 0;
@@ -26,4 +26,4 @@ class Solution {
         }
         return start;
     }
-}
+} */

@@ -1,4 +1,4 @@
-class Solution {
+/* class Solution {
     public int[] countSubTrees(int n, int[][] edges, String labels) {
         ArrayList<Integer> graph[]=new ArrayList[n];
         int i;
@@ -28,4 +28,4 @@ public void dfs(int i,int ans[],int freq[],boolean dp[],String s,ArrayList<Integ
     ans[i]=freq[c];
     freq[c]+=tmp;
 }
-}
+} */

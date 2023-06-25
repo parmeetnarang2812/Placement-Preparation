@@ -1,0 +1,16 @@
+class Solution {
+    static String armstrongNumber(int n){
+        // code here
+        int num=n, ans=0;
+        while(num!=0) {
+            int rem = num % 10;
+            ans = ans + Math.pow(rem,3);
+        }
+        if(n-ans==0) {
+            return "Yes";
+        }
+        else{
+            return "No";
+        }
+    }
+}

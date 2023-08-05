@@ -56,3 +56,25 @@ class Solution {
     }
 } 
 */
+
+/* 
+class Solution
+{
+    public long findMinDiff (ArrayList<Integer> a, int n, int m)
+    {
+        // your code here
+        ArrayList<Integer> b = a;
+        Collections.sort(b);
+        
+        int diff  = b.get(m-1) - b.get(0);
+        int min = diff;
+        
+        for(int i=m; i<n; i++) {
+            diff = b.get(i) - b.get(i-m+1);
+            min = Math.min(min, diff);
+        }
+        
+        return min;
+    }
+}
+*/
